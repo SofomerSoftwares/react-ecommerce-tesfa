@@ -1,0 +1,147 @@
+ [
+  {
+      "id": 1,
+      "name": "Almond white T-shirt",
+      "image": "../src/assets/images/aa69543e-5be1-4db1-931e-c91aa34b125e1682666262387TshirtsLCWaikikiMenTshirtsLCWaikikiMenTshirtsLCWaikikiMenTsh1.jpg",
+      "category": "T-Shirt",
+      "price": 99.00,
+      "stock": 5,
+      "Status": "Featured"
+  },
+  {
+      "id": 2,
+      "name": "Black T-shirt",
+      "image": "../src/assets/images/0e6555e0-90f9-44f2-a227-076ce8f0ef6c1682666260676TshirtsLCWaikikiMenTshirtsLCWaikikiMenTshirtsLCWaikikiMenTsh1.jpg",
+      "category": "T-Shirt",
+      "price": 42.00,
+      "stock": 4
+  },
+  {
+      "id": 3,
+      "name": "Black Trouser",
+      "image": "../src/assets/images/7c65c273-16d6-47a4-bcbd-fa93b23bb22b1682661443621TshirtsLCWaikikiMenShortsLCWaikikiMenTshirtsLCWaikikiMenTshi1.jpg",
+      "category": "Mens Trouser",
+      "price": 34.00,
+      "stock": 12,
+      "Status": "Featured"
+
+  },
+  {
+      "id": 4,
+      "name": "Flip Flops, Red",
+      "image": "../src/assets/images/81fe11b8-c7c6-49f9-8f46-fe3f88eeccd61684756205616-LC-Waikiki-Men-Slim-Fit-Stretchable-Jeans-2831684756205347-1.jpg",
+      "category": "Mens Footwear",
+      "price": 19.00,
+      "stock": 6,
+      "Status": ""
+  },
+  {
+      "id": 5,
+      "name": "Flip Flops, Blue",
+      "image": "../src/assets/images/94c7601d-32e2-4669-8f71-47aadcfb8aad1685012653559-LC-Waikiki-Men-Regular-Fit-Stretchable-Jeans-451168501265325-1.jpg",
+      "category": "Mens Footwear",
+      "price": 19.00,
+      "stock": 0,
+      "Status": "Featured"
+  },
+  {
+      "id": 6,
+      "name": "Gold Button Cardigan, Black",
+      "image": "../src/assets/images/102fe6c3-5270-4efa-b207-28a8b8bab20f1672916226089-LC-Waikiki-Belted-Sweater-Dress-6861672916225582-1.jpg",
+      "category": "Womens Casualwear",
+      "price": 167.00,
+      "stock": 6,
+      "Status": ""
+  },
+  {
+      "id": 7,
+      "name": "Cotton Shorts, Medium Red",
+      "image": "../src/assets/images/9aefbf9f-25c0-454f-852c-1972efa25d711682661380758TshirtsLCWaikikiMenShortsLCWaikikiMenTshirtsLCWaikikiMenTshi1.jpg",
+      "category": "Womens Casualwear",
+      "price": 30.00,
+      "stock": 5,
+      "Status": "Featured"
+  },
+  {
+      "id": 8,
+      "name": "Fine Stripe Short Sleeve￼Shirt, Grey",
+      "image": "../src/assets/images/9ef22165-76bf-4ad1-9e81-ade76c9fdd341682666228425TshirtsLCWaikikiMenTshirtsLCWaikikiMenTshirtsLCWaikikiMenTsh1.jpg",
+      "category": "Mens Casualwear",
+      "price": 49.99,
+      "stock": 9,
+      "Status": ""
+  },
+  {
+      "id": 9,
+      "name": "Fine Stripe Short Sleeve￼Shirt, Green",
+      "image": "../src/assets/images/22ef7975-ef76-442b-b2a0-e14d8edc280f1682661402599TshirtsLCWaikikiMenShortsLCWaikikiMenTshirtsLCWaikikiMenTshi1.jpg",
+      "category": "Mens Casualwear",
+      "price": 49.99,
+      "offer": 39.99,
+      "stock": 9,
+      "Status": "Featured"
+
+  },
+  {
+      "id": 10,
+      "name": "Sharkskin Waistcoat, Charcoal",
+      "image": "../src/assets/images/30c976e9-a3a3-4f6b-9a8f-040c08b345a01682661411237TshirtsLCWaikikiMenShortsLCWaikikiMenTshirtsLCWaikikiMenTshi1.jpg",
+      "category": "Mens Formalwear",
+      "price": 75.00,
+      "stock": 2,
+      "Status": ""
+  },
+  {
+      "id": 11,
+      "name": "Lightweight Patch Pocket￼Blazer, Deer",
+      "image": "../src/assets/images/34ab63e3-ab01-42fe-93f0-4d67e88193f41684387199026-LC-Waikiki-Regular-Fit-Opaque-Casual-Shirt-1461684387198808-1.jpg",
+      "category": "Mens Formalwear",
+      "price": 175.50,
+      "stock": 1,
+      "Status": "Featured"
+  },
+  {
+      "id": 12,
+      "name": "Bird Print Dress, Black",
+      "image": "../src/assets/images/38d6ba91-85d6-44be-a74d-e063884bbc331684407554232-LC-Waikiki-Men-Slim-Fit-Trousers-5561684407554004-1.jpg",
+      "category": "Womens Formalwear",
+      "price": 270.00,
+      "stock": 10,
+      "Status": "Featured"
+  },
+  {
+      "id": 13,
+      "name": "Mid Twist Cut-Out Dress, Pink",
+      "image": "../src/assets/images/50cdd3cb-731c-41fc-9a66-aee27adb2d8f1682661371090TshirtsLCWaikikiMenShortsLCWaikikiMenTshirtsLCWaikikiMenTshi1.jpg",
+      "category": "Womens Formalwear",
+      "price": 540.00,
+      "stock": 5,
+      "Status": ""
+  }, {
+    "id": 14,
+    "name": "brown-leather-shoes",
+    "image": "../src/assets/images/brown-leather-shoes.jpg",
+    "category": "shoes",
+    "price": 540.00,
+    "stock": 5,
+    "Status": "Featured"
+},
+{
+    "id": 15,
+    "name": "elegant-black-leather-shoes",
+    "image": "../src/assets/images/elegant-black-leather-shoes-men-black-background-photo-studio-style-ai-generative.jpg",
+    "category": "shoes",
+    "price": 900.00,
+    "stock": 5,
+    "Status": "Featured"
+},
+{
+    "id": 16,
+    "name": "fashion-shoes-sneakers",
+    "image": "../src/assets/images/fashion-shoes-sneakers.jpg",
+    "category": "shoes",
+    "price": 800.00,
+    "stock": 5,
+    "Status": "Featured"
+}
+  ]
