@@ -2,12 +2,14 @@
 import React from 'react'
 import { BrowserRouter, Outlet, Route, Router, Routes } from 'react-router-dom'
 import Home from './Components/Page/Home/Home'
+import Category from './Components/Page/Category/Category'
 import Products from './Components/Page/Home/Products'
-import Categories from './Components/Page/Home/Categories'
 import SingleProduct from './Components/Page/Home/SingleProduct'
 import Nav from './Components/Navigation/Nav'
-import Banner from './Components/Page/Home/Banner'
+import Login from './Components/Page/Accounts/Login'
+import Register from './Components/Page/Accounts/Register'
 import Footer from './Components/Footer/Footer'
+
 
 function App() {
 
@@ -25,11 +27,13 @@ function App() {
 <BrowserRouter>
   <Routes>
     <Route path='/' element={<Layout />}> 
+    <Route path='/category' element={<Category/>} />
     <Route path='/' element={<Home />} />
     <Route path='/products' element={<Products/>}/>
      <Route path='/shop/:id' element={<SingleProduct/>} />
-    <Route path='/category' element={<Categories/>} />
     </Route>
+     <Route path ='/login' element={<Login />}></Route>
+     <Route path ='/register' element={<Register/>}></Route>
   </Routes>
   
 </BrowserRouter> 
