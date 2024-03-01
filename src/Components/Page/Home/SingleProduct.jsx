@@ -36,10 +36,7 @@ window.scrollTo({top:0, behavior:'smooth'})
   return (
     <div className='mt-28 max-w-screen-2xl container mx-auto xl:px-28 px-4'>
        <div className='p-3 max-w-7xl m-auto'>
-         <div className='mt-8'>
-         <a href="/" className='text-gray-600'>Home</a>
-            <a href="/shop" className='font-bold text-black'>/ Shop</a>
-         </div>
+      
          <div className='mt-6 sm:mt-10'>
          <div className='mt-4 sm:mt-10'>
             

@@ -1,18 +1,15 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { FaFilter } from 'react-icons/fa'
 import Cards from '../../Cards/Cards';
+import Category from '../Category/Category';
              
-
+export const productContext = useContext();
              
 function Products() {
   const [products,setProducts] = useState([]);
   const [filteredItem,setfilteredItem] = useState([]);
   const [SelectedCategory,setSelectedCategory] = useState("all");
   const [SortOption,setSortOption] = useState("Default");
-
-
-
-
 
   useEffect(()=>{
     fetchData();
@@ -70,7 +67,7 @@ const handleSortchange = (option) => {
 }
 
   return (
-    <div className='max-w-screen-2xl container mx-auto  xl:px-32 px-4 mb-12'>
+    <div className='max-w-screen-2xl container mx-auto py-64 xl:px-32 px-4 mb-12'>
         <h2 className='text-3xl font-semibold text-center capitalize my-8'>
           Subscribe for news
         </h2>
@@ -103,7 +100,10 @@ const handleSortchange = (option) => {
         
     </div>
     <div>
-<Cards filteredItems ={filteredItem} />
+    <productContext.Provider  value={filteredItem}>
+    <Category  />     
+    <Cards  />
+    </productContext.Provider >
     </div>
     </div>
   )

@@ -1,9 +1,15 @@
 
 import React from 'react'
 import { Link } from 'react-router-dom';
+import productContext from '../Page/Home/Products'
 
-function Cards({filteredItems}) {
+
+
+
+function Cards() {
  
+  const filteredItems = useContext(productContext);
+   
   return (
 <div className='grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8'>
 {

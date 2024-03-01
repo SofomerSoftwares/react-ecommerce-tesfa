@@ -57,8 +57,15 @@ function Nav() {
           <NavLink to={"/BestSells"}>Best Sellers</NavLink>  
          </li>  
       </ul>  
+      
       </div>
+      
       <hr/>
+      <div className='mt-8 items-start px-16'>
+         <a href="/" className='text-gray-600'>Home</a>
+            <a href="/Category" className='font-bold text-black'> / </a>
+         </div>
+         <hr />
       {/* only for mobile */}
       <div className='sm:hidden'>
         <div  className="drawer-content">
