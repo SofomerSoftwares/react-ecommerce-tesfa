@@ -1,12 +1,13 @@
 import React, { useContext } from 'react'
-
-import productContext from '../../Page/Home/Products'
-
+import { NavLink } from 'react-router-dom';
 
 
-function Category() {
+
+
+
+function Category({ProductItems}) {
   
-const filteredItems = useContext(productContext);
+
   return (
     <div className=' flex max-w-screen-2xl container mx-auto  xl:px-4 py-64'>
      <div className='w-52 h-96 px-8  border-r border-gray-300'>
@@ -33,6 +34,28 @@ const filteredItems = useContext(productContext);
 
       </div>
 
+     </div>
+     <div>
+      {
+     ProductItems.map((items) =>(
+    <div key={items.id} className='card card-compact  w-72 bg-base-100 shadow-xl'>
+       <NavLink to={`/shop/${items.id}`}>
+       <img src={items.image} alt="" className='rounded-md h-72 w-72'/>
+       <div className="card-body">
+        <h2 className="card-title text-sm">{items.name}</h2>
+        <div className='flex flex-row justify-between gap-24'> 
+        <p className='text-black/50'>{items.category}</p> 
+       
+       </div>
+      <div className="card-actions  justify-center gap-24">
+      <button className="btn btn-outline btn-primary">add to cart </button>
+      <p className='font-semibold text-red-400 mt-4'>ETB {items.price} </p>
+      </div>
+      </div>
+      </NavLink>
+      </div>
+      ))
+     }
      </div>
     </div>
   )

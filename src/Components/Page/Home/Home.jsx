@@ -12,7 +12,7 @@ function Home() {
     <div className='max-w-auto  '>  
      
      <Banner/>
-     <Categories/>
+     
      <Products />
      <Collection />
      <FeatureProducts />

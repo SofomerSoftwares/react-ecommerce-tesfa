@@ -3,7 +3,7 @@ import { FaFilter } from 'react-icons/fa'
 import Cards from '../../Cards/Cards';
 import Category from '../Category/Category';
              
-export const productContext = useContext();
+
              
 function Products() {
   const [products,setProducts] = useState([]);
@@ -100,10 +100,9 @@ const handleSortchange = (option) => {
         
     </div>
     <div>
-    <productContext.Provider  value={filteredItem}>
-    <Category  />     
-    <Cards  />
-    </productContext.Provider >
+      
+    <Cards ProductItems = {filteredItem}  />
+     
     </div>
     </div>
   )
